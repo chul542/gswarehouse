@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "default": "gswarehouste"
+  },
+  "hosting": {
+    "public": "build",   // ← 이 부분을 "build"로 변경
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
